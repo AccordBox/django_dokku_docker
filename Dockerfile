@@ -4,6 +4,8 @@ FROM python:3.6-stretch
 # WORKDIR sets the working directory for docker instructions, please not use cd
 WORKDIR /app
 
+EXPOSE 8000
+
 # sets the environment variable
 ENV PYTHONUNBUFFERED=1 \
     PYTHONPATH=/app \
