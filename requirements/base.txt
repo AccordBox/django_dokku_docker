@@ -18,6 +18,6 @@ django-redis==4.10.0  # https://github.com/niwinz/django-redis
 djangorestframework==3.10.3  # https://github.com/encode/django-rest-framework
 coreapi==2.3.3  # https://github.com/core-api/python-client
 
-wagtail==2.6.2
+wagtail==2.7.4
 django-storages==1.6.6
 boto3==1.8
